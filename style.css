@@ -1,0 +1,196 @@
+.header {
+  margin: 0%;
+  padding: 15%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 202, 103);
+  padding: 10px;
+  position: fixed;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(52, 163, 1);
+  text-align: center;
+  color: white;
+}
+body {
+  background: linear-gradient(rgb(203, 235, 203), rgb(219, 209, 191));
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+ul.nav {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  padding-right: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+li.nav {
+  display: inline-block;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: green;
+  color: white;
+}
+
+.footer a:hover {
+  background-color: orange;
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3rem;
+}
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-wrap: break-word;
+  color: white;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+section {
+  display: inline-block;
+  margin-left: 1%;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.ICT {
+  width: 3.5in;
+  height: 2in;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/ict/ict.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+section.oil-and-gas {
+  width: 3in;
+  height: 2in;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/oil/oil.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+section.agriculture {
+  width: 3in;
+  height: 2in;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/agric/agriculture.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+section.SME {
+  width: 3.5in;
+  height: 2in;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/sme/sme.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.prog-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: baseline;
+}
+section.governor {
+  width: 25rem;
+  height: 3in;
+  background: url(./images/governor.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+section.commissioner {
+  width: 25rem;
+  height: 3in;
+  background: url(./images/commissioner.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.perm-sec {
+  width: 25rem;
+  height: 3in;
+  background: url(./images/permsec.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.visionary-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: 50%;
+}
+.headings2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  font-size: 3rem;
+}
+
+li.ictdep {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li.oildep {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li.smedep {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li.faq {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+label.answer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+}
